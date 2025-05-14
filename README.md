@@ -1,6 +1,7 @@
 # Mini-Project
 Initial mini project utilizing MS Excel and Power Bi
 
+1) DATA CLEANING WITH EXCEL
 Filled "N/A" to the missing places in the loan date end column. 
 Renamed "Height" and "Weight" to "Height in cm" and "Weight in kg" respectively. Removed cm and kg from their values by extracting values before delimiter and changed their datatypes to number. 
 In order to convert value, Wage, and Release Clause columns to number: removed the euro symbol, M, and K by using find and replace, changed the data intially to decimal format, multiplied column that had M with 1000000 and K with 1000 to get whole number format, finally changed the values to whole number, renamed the columns like Value in Euros for clarification. 
